@@ -1,4 +1,3 @@
-/* esto es para los colores globales */
 :root {
   --tinta: #000000;
   --papel: #ffffff;
@@ -9,6 +8,7 @@
 
 html {
   scroll-padding-top: 7rem;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -20,12 +20,11 @@ body {
 
 .font-manga {
   font-family: 'Bangers', 'Impact', 'Arial Black', sans-serif;
-  font-weight: 2rem;
+  font-weight: 400;
   letter-spacing: 0.05em;
   line-height: 0.95;
 }
 
-/* paneles laterales y como se ven los cuadros */
 .vineta {
   background-color: var(--papel);
   border: 2px solid var(--tinta);
@@ -35,20 +34,10 @@ body {
   box-shadow: 3px 3px 0 0 var(--tinta);
 }
 
-.panel-manga {
-  position: sticky;
-  top: 6rem;
-  overflow: hidden;
-  background-color: var(--papel-alt);
-  border: 2px solid var(--tinta);
-}
-
-/* esto lo hice para que la ultima hoja quede como un panel de manga recortado */
 .corte-diagonal {
   clip-path: polygon(0 2.5rem, 100% 0, 100% 100%, 0 100%);
 }
 
-/* esto para hacer responsive la pagina */
 @media (max-width: 640px) {
   html {
     scroll-padding-top: 10rem;
