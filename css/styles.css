@@ -47,3 +47,22 @@ body {
 .corte-diagonal {
   clip-path: polygon(0 2.5rem, 100% 0, 100% 100%, 0 100%);
 }
+
+/* esto para hacer responsive la pagina */
+@media (max-width: 640px) {
+  html {
+    scroll-padding-top: 10rem;
+  }
+  .sombra-tinta {
+    box-shadow: 2px 2px 0 0 var(--tinta);
+  }
+  .corte-diagonal {
+    clip-path: polygon(0 1.75rem, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
