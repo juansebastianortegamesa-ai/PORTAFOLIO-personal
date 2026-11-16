@@ -48,37 +48,62 @@
 
       <main class="flex min-w-0 flex-col gap-6 xl:gap-8">
                 <article id="hero" class="vineta sombra-tinta">
-          <div class="p-6 sm:p-10">
-            <div class="flex flex-wrap items-center justify-between gap-3 border-b border-black pb-4">
-              <p class="font-manga text-2xl uppercase text-orange-500">¿QUIEN SOY?</p>
-              <div class="flex items-center gap-2">
-                <div class="h-2.5 w-2.5 animate-pulse rounded-full bg-green-500"></div>
+          <div class="grid md:grid-cols-[1.4fr_0.6fr]">
+            
+            <!-- Texto del Hero -->
+            <div class="p-6 sm:p-10">
+              <div class="flex flex-wrap items-center justify-between gap-3 border-b border-black pb-4">
+                <div class="flex items-center gap-2">
+                  <div class="h-2.5 w-2.5 animate-pulse rounded-full bg-green-500"></div>
+                  <p class="text-[0.6rem] font-bold uppercase tracking-[0.2em] text-zinc-500">TE INVITO A CONOCERME</p>
+                </div>
+              </div>
+              <h1 class="font-manga mt-8 text-5xl uppercase sm:text-6xl md:text-7xl lg:text-8xl">
+                <strong class="block text-orange-500">Sebastián</strong>
+                <strong class="block text-orange-500">Ortega.</strong>
+              </h1>
+              <p class="mt-8 max-w-xl text-lg leading-8 text-zinc-600 sm:text-xl">
+                Hola, soy Sebastián. <strong class="font-semibold text-black">Desarrollador Frontend en formación.</strong> Me gusta aprender, crear y transformar ideas en soluciones reales.
+              </p>
+              <div class="mt-10 flex flex-wrap gap-3">
+                <a href="#sobre-mi" class="rounded-full border-2 border-black bg-black px-6 py-3 text-xs font-bold uppercase tracking-[0.2em] text-white transition-colors hover:border-orange-500 hover:bg-orange-500">Conoce más ↗</a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="rounded-full border-2 border-black px-6 py-3 text-xs font-bold uppercase tracking-[0.2em] text-black transition-colors hover:border-orange-500 hover:bg-orange-500 hover:text-white">Mi GitHub ↗</a>
               </div>
             </div>
-            <h1 class="font-manga mt-8 text-5xl uppercase sm:text-6xl md:text-7xl lg:text-8xl">
-              <strong class="block text-orange-500">Sebastián</strong>
-              <strong class="block text-orange-500">Ortega.</strong>
-            </h1>
-            <p class="mt-8 max-w-xl text-lg leading-8 text-zinc-600 sm:text-xl">
-              Hola, soy Sebastián. <strong class="font-semibold text-black">Desarrollador  en formación.</strong> Me gusta aprender, crear y transformar ideas en soluciones reales.
-            </p>
-            <div class="mt-10 flex flex-wrap gap-3">
-              <a href="#sobre-mi" class="rounded-full border-2 border-black bg-black px-6 py-3 text-xs font-bold uppercase tracking-[0.2em] text-white transition-colors hover:border-orange-500 hover:bg-orange-500">Conoce más ↗</a>
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="rounded-full border-2 border-black px-6 py-3 text-xs font-bold uppercase tracking-[0.2em] text-black transition-colors hover:border-orange-500 hover:bg-orange-500 hover:text-white">Mi GitHub ↗</a>
-            </div>
+
+            <figure class="flex flex-col border-t-2 border-black bg-zinc-100 md:border-t-0 md:border-l-2">
+              <img src="img/fotodeperfil.png" alt="Retrato de Sebastián Ortega" class="h-64 w-full object-cover object-top  md:h-auto md:flex-1">
+              <figcaption class="border-t border-black bg-black px-4 py-2 text-[0.6rem] font-bold uppercase tracking-[0.25em] text-white"></figcaption>
+            </figure>
           </div>
         </article>
 
+        
+        <section id="sobre-mi" aria-labelledby="titulo-sobre-mi" class="vineta sombra-tinta">
+          <header class="flex flex-wrap items-center justify-between gap-2 border-b border-black bg-zinc-100 px-6 py-3">
+            <h2 id="titulo-sobre-mi" class="font-manga text-2xl uppercase sm:text-3xl">
+              <strong class="text-orange-500">01</strong> / Sobre mí
+            </h2>
+            <p class="text-[0.6rem] font-bold uppercase tracking-[0.25em] text-zinc-500">Mentalidad</p>
+          </header>
+          <div class="p-6 sm:p-10">
+            <div class="space-y-5 text-base leading-8 text-zinc-600">
+              <p>Soy <strong class="font-semibold text-black">Sebastián Ortega</strong>, una persona interesada en aprender, explorar nuevas ideas y desarrollar habilidades que me permitan crecer personal y profesionalmente.</p>
+              <p>Me gusta enfrentar nuevos retos, descubrir diferentes herramientas y encontrar maneras creativas de resolver problemas.</p>
+              <p>Actualmente estoy enfocado en fortalecer mis conocimientos y seguir construyendo mi camino profesional.</p>
+            </div>
+          </div>
+        </section>
+                
+
       </main>
 
-     
       <aside aria-label="Panel lateral derecho" class="hidden lg:block">
         <figure class="panel-manga sombra-tinta">
           <img src="https://placehold.co/400x1200/18181b/f97316?text=PANEL+DER" alt="Panel decorativo derecho" class="h-[calc(100vh-11rem)] w-full object-cover grayscale" loading="lazy">
           <figcaption class="border-t border-black bg-black px-3 py-2 text-center text-[0.6rem] font-bold uppercase tracking-[0.3em] text-white">Panel 02</figcaption>
         </figure>
       </aside>
-
     </div>
   </div>
 
