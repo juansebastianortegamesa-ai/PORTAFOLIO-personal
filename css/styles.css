@@ -1,0 +1,26 @@
+/* esto es para los colores globales */
+:root {
+  --tinta: #000000;
+  --papel: #ffffff;
+  --papel-alt: #f4f4f5;
+  --carbon: #27272a;
+  --acento: #f97316;
+}
+
+html {
+  scroll-padding-top: 7rem;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  background-color: var(--papel);
+  color: var(--carbon);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-manga {
+  font-family: 'Bangers', 'Impact', 'Arial Black', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 0.95;
+}
