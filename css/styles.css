@@ -20,7 +20,25 @@ body {
 
 .font-manga {
   font-family: 'Bangers', 'Impact', 'Arial Black', sans-serif;
-  font-weight: 400;
+  font-weight: 2rem;
   letter-spacing: 0.05em;
   line-height: 0.95;
+}
+
+/* paneles laterales y como se ven los cuadros */
+.vineta {
+  background-color: var(--papel);
+  border: 2px solid var(--tinta);
+}
+
+.sombra-tinta {
+  box-shadow: 3px 3px 0 0 var(--tinta);
+}
+
+.panel-manga {
+  position: sticky;
+  top: 6rem;
+  overflow: hidden;
+  background-color: var(--papel-alt);
+  border: 2px solid var(--tinta);
 }
