@@ -42,3 +42,8 @@ body {
   background-color: var(--papel-alt);
   border: 2px solid var(--tinta);
 }
+
+/* esto lo hice para que la ultima hoja quede como un panel de manga recortado */
+.corte-diagonal {
+  clip-path: polygon(0 2.5rem, 100% 0, 100% 100%, 0 100%);
+}

@@ -16,6 +16,199 @@
   
 </head>
 <body class="min-h-screen bg-white text-zinc-800 antialiased">
-    
+  
+    <header class="sticky top-0 z-50 border-b-2 border-black bg-white">
+    <nav aria-label="Navegación principal" class="mx-auto flex w-full max-w-[1700px] flex-wrap items-center justify-between gap-x-6 gap-y-3 px-4 py-3 sm:px-6">
+      <a href="#hero" class="font-manga text-3xl leading-none text-black transition-colors hover:text-orange-500">
+        GSO<strong class="text-orange-500">.</strong>
+      </a>
+      <ul class="order-3 flex w-full flex-wrap items-center gap-x-5 gap-y-2 border-t border-black pt-3 text-[0.65rem] font-bold uppercase tracking-[0.2em] sm:order-2 sm:w-auto sm:border-t-0 sm:pt-0 sm:text-xs">
+        <li><a href="#sobre-mi" class="transition-colors hover:text-orange-500">Sobre mí</a></li>
+        <li><a href="#habilidades" class="transition-colors hover:text-orange-500">Habilidades</a></li>
+        <li><a href="#aprendizaje" class="transition-colors hover:text-orange-500">Aprendizaje</a></li>
+        <li><a href="#intereses" class="transition-colors hover:text-orange-500">Intereses</a></li>
+      </ul>
+      <ul class="order-2 hidden items-center gap-2 text-[0.6rem] font-bold uppercase tracking-[0.15em] sm:order-3 sm:flex sm:text-xs">
+        <li><a href="https://github.com/juansebastianortegamesa-ai" target="_blank" rel="noopener noreferrer" class="rounded-full border border-black px-3 py-1.5 transition-colors hover:border-orange-500 hover:bg-orange-500 hover:text-white">GitHub</a></li>
+        <li><a href="mailto:juansebastianortegamesa@gmail.com" class="rounded-full border border-black px-3 py-1.5 transition-colors hover:border-orange-500 hover:bg-orange-500 hover:text-white">Gmail</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div class="mx-auto w-full max-w-[1700px] px-3 pt-6 pb-14 sm:px-6 lg:pt-10">
+    <div class="grid grid-cols-1 gap-6 lg:grid-cols-[220px_minmax(0,1fr)_220px] xl:grid-cols-[260px_minmax(0,1fr)_260px] xl:gap-8">
+      
+ 
+      <aside aria-label="Panel lateral izquierdo" class="hidden lg:block">
+        <figure class="panel-manga sombra-tinta">
+          <img src="https://placehold.co/400x1200/18181b/f97316?text=PANEL+IZQ" alt="Panel decorativo izquierdo" class="h-[calc(100vh-11rem)] w-full object-cover grayscale" loading="lazy">
+          <figcaption class="border-t border-black bg-black px-3 py-2 text-center text-[0.6rem] font-bold uppercase tracking-[0.3em] text-white">Panel 01</figcaption>
+        </figure>
+      </aside>
+
+
+      <main class="flex min-w-0 flex-col gap-6 xl:gap-8">
+                <article id="hero" class="vineta sombra-tinta">
+          <div class="grid md:grid-cols-[1.4fr_0.6fr]">
+            
+            <div class="p-6 sm:p-10">
+              <div class="flex flex-wrap items-center justify-between gap-3 border-b border-black pb-4">
+                <div class="flex items-center gap-2">
+                  <div class="h-2.5 w-2.5 animate-pulse rounded-full bg-green-500"></div>
+                  <p class="text-[0.6rem] font-bold uppercase tracking-[0.2em] text-zinc-500">TE INVITO A CONOCERME</p>
+                </div>
+              </div>
+              <h1 class="font-manga mt-8 text-5xl uppercase sm:text-6xl md:text-7xl lg:text-8xl">
+                <strong class="block text-orange-500">Sebastián</strong>
+                <strong class="block text-orange-500">Ortega.</strong>
+              </h1>
+              <p class="mt-8 max-w-xl text-lg leading-8 text-zinc-600 sm:text-xl">
+                Hola, soy Sebastián. <strong class="font-semibold text-black">Desarrollador en formación.</strong> Me gusta aprender, crear y transformar ideas en soluciones reales.
+              </p>
+              <div class="mt-10 flex flex-wrap gap-3">
+                <a href="#sobre-mi" class="rounded-full border-2 border-black bg-black px-6 py-3 text-xs font-bold uppercase tracking-[0.2em] text-white transition-colors hover:border-orange-500 hover:bg-orange-500">Conoce más ↗️</a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="rounded-full border-2 border-black px-6 py-3 text-xs font-bold uppercase tracking-[0.2em] text-black transition-colors hover:border-orange-500 hover:bg-orange-500 hover:text-white">Mi GitHub ↗️</a>
+              </div>
+            </div>
+
+            <figure class="flex flex-col border-t-2 border-black bg-zinc-100 md:border-t-0 md:border-l-2">
+              <img src="img/fotodeperfil.png" alt="Retrato de Sebastián Ortega" class="h-64 w-full object-cover object-top  md:h-auto md:flex-1">
+              <figcaption class="border-t border-black bg-black px-4 py-2 text-[0.6rem] font-bold uppercase tracking-[0.25em] text-white"></figcaption>
+            </figure>
+          </div>
+        </article>
+
+        
+        <section id="sobre-mi" aria-labelledby="titulo-sobre-mi" class="vineta sombra-tinta">
+          <header class="flex flex-wrap items-center justify-between gap-2 border-b border-black bg-zinc-100 px-6 py-3">
+            <h2 id="titulo-sobre-mi" class="font-manga text-2xl uppercase sm:text-3xl">
+              <strong class="text-orange-500">01</strong> / Sobre mí
+            </h2>
+            <p class="text-[0.6rem] font-bold uppercase tracking-[0.25em] text-zinc-500">Mentalidad</p>
+          </header>
+          <div class="grid items-center gap-8 p-6 sm:p-10 md:grid-cols-[1.15fr_0.85fr]">
+            <div class="space-y-5 text-base leading-8 text-zinc-600">
+              <p>Soy <strong class="font-semibold text-black">Sebastián Ortega</strong>, una persona interesada en aprender, explorar nuevas ideas y desarrollar habilidades que me permitan crecer personal y profesionalmente.</p>
+              <p>Me gusta enfrentar nuevos retos, descubrir diferentes herramientas y encontrar maneras creativas de resolver problemas.</p>
+              <p>Actualmente estoy enfocado en fortalecer mis conocimientos y seguir construyendo mi camino profesional.</p>
+              <p>mi filosofia de vida es siempre vivir sintiendo todo al maximo, la mejor forma de demostrar de lo que eres capaz es viviendo el presente,
+                solo recordar penas del pasado te estanca, y solo pensar en el futuro te pone ansioso, la clave es estar en el aqui y el ahora.</p>
+            </div>
+            
+            <figure class="flex flex-col items-center overflow-hidden border-2 border-black bg-black">
+              <img src="img/gif onizuka pagina XD.gif" alt="Animación sobre aprendizaje continuo" class="mx-auto block h-auto w-full max-w-[236px] object-cover" loading="lazy">
+              <figcaption class="w-full border-t border-black bg-black px-4 py-2 text-center text-[0.6rem] font-bold uppercase tracking-[0.25em] text-white"></figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section id="habilidades" aria-labelledby="titulo-habilidades" class="vineta sombra-tinta">
+          <header class="flex flex-wrap items-center justify-between gap-2 border-b border-black bg-zinc-100 px-6 py-3">
+            <h2 id="titulo-habilidades" class="font-manga text-2xl uppercase sm:text-3xl">
+              <strong class="text-orange-500">02</strong> / Habilidades
+            </h2>
+            <p class="text-[0.6rem] font-bold uppercase tracking-[0.25em] text-zinc-500">Herramientas y saberes</p>
+          </header>
+          <div class="grid gap-5 p-6 sm:p-10 md:grid-cols-2">
+            
+            <article class="border-2 border-black bg-white p-6 transition-colors hover:border-orange-500">
+              <p class="font-manga text-xl text-orange-500">01</p>
+              <h3 class="mt-1 text-lg font-extrabold uppercase tracking-wide text-black">Desarrollo y herramientas</h3>
+              <ul class="mt-4 list-disc space-y-1 pl-5 text-sm leading-7 text-zinc-600">
+                <li>HTML5</li>
+                <li>Tailwind, boostrap, CSS </li>
+                <li>Git, GitHub y Figma</li>
+              </ul>
+            </article>
+
+            <article class="border-2 border-black bg-white p-6 transition-colors hover:border-orange-500">
+              <p class="font-manga text-xl text-orange-500">02</p>
+              <h3 class="mt-1 text-lg font-extrabold uppercase tracking-wide text-black">Idiomas</h3>
+              <ul class="mt-4 list-disc space-y-1 pl-5 text-sm leading-7 text-zinc-600">
+                <li><strong class="font-semibold text-black">Español</strong> — Nativo</li>
+                <li><strong class="font-semibold text-black">Inglés</strong> — A2 (estoy aprendiendo ingles) </li>
+              </ul>
+            </article>
+
+              <article id="H-S-E" class="border-2 border-black bg-white p-6 transition-colors hover:border-orange-500">
+              <p class="font-manga text-xl text-orange-500">03</p>
+              <h3 class="mt-1 text-lg font-extrabold uppercase tracking-wide text-black">SOCIALES</h3>
+              <ul class="mt-4 list-disc space-y-1 pl-5 text-sm leading-7 text-zinc-600">
+                <li>Trabajo en equipo</li>
+                <li>metodologia scrum</li>
+                <li>comunicacion acertiva</li>
+
+              </ul>
+            </article>
+
+            <article id="aprendizaje" class="border-2 border-black bg-white p-6 transition-colors hover:border-orange-500">
+              <p class="font-manga text-xl text-orange-500">04</p>
+              <h3 class="mt-1 text-lg font-extrabold uppercase tracking-wide text-black">Aprendiendo actualmente</h3>
+              <ul class="mt-4 list-disc space-y-1 pl-5 text-sm leading-7 text-zinc-600">
+                <li>JAVA SCRIPT</li>
+                <li>Accesibilidad web y buenas prácticas</li>
+                <li>analisis de datos</li>
+                <li>Diseño de sistemas y documentación</li>
+                <li>manejo de IA</li>
+              </ul>
+            </article>
+
+            <figure class="flex flex-col overflow-hidden border-2 border-black bg-zinc-100">
+              <img src="img/HSE.png" alt="Mesa de trabajo" class="h-70 w-full object-cover loading="lazy">
+              <figcaption class="mt-auto border-t border-black bg-black px-5 py-2 text-[0.6rem] font-bold uppercase tracking-[0.25em] text-white"></figcaption>
+            </figure>
+
+          </div>
+        </section>
+      
+
+        <div class="corte-diagonal bg-black p-0.5">
+          <section id="intereses" aria-labelledby="titulo-intereses" class="corte-diagonal bg-white px-6 pt-20 pb-10 sm:px-10">
+            <header class="border-b border-black pb-3">
+              <h2 id="titulo-intereses" class="font-manga text-2xl uppercase sm:text-3xl">
+                <strong class="text-orange-500">03</strong> / Intereses
+              </h2>
+            </header>
+            <div class="mt-8 grid gap-8 md:grid-cols-[0.85fr_1.15fr]">
+              <figure class="flex flex-col overflow-hidden border-2 border-black bg-zinc-100">
+                <img src="img/intereses.png" alt="mis intereses class="h-56 w-full object-cover grayscale md:h-full" loading="lazy">
+                <figcaption class="mt-auto border-t border-black bg-black px-4 py-2 text-[0.6rem] font-bold uppercase tracking-[0.25em] text-white">onizuka con un cuaderno</figcaption>
+              </figure>
+              <div class="space-y-7">
+                <div>
+                  <h3 class="text-lg font-extrabold uppercase tracking-wide text-black">Lo que me inspira</h3>
+                  <p class="mt-2 text-sm leading-7 text-zinc-600"> cualquier arte visual que me resulte atractivo,
+                     puede ser pelis, series,  fotos manga cualquier cosa que me impresione lo tomo en cuenta.
+                </p>
+                <p class="mt-2 text-sm leading-7 text-zinc-600">
+                  todo el tema relacionado a la tecnologia, me gusta estar constantemente pendiente de lo nuevo que va saliendo tanto de software como de hardware
+                </p>
+                <p class="mt-2 text-sm leading-7 text-zinc-600">
+                 en musica me gusta escuchar todos los generos, pero en especial me gusta el metal/rock/rap/electro etc.
+                </p>
+                </div>
+                <div>
+                  <h3 class="text-lg font-extrabold uppercase tracking-wide text-black">Siempre aprendiendo</h3>
+                  <p class="mt-2 text-sm leading-7 text-zinc-600">Me gusta mantener la curiosidad,
+                     descubrir nuevas perspectivas y encontrar oportunidades para seguir creciendo. me gusta ir innovando en cada proyecto
+                     .</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+
+
+
+      </main>
+
+      <aside aria-label="Panel lateral derecho" class="hidden lg:block">
+        <figure class="panel-manga sombra-tinta">
+          <img src="https://placehold.co/400x1200/18181b/f97316?text=PANEL+DER" alt="Panel decorativo derecho" class="h-[calc(100vh-11rem)] w-full object-cover grayscale" loading="lazy">
+          <figcaption class="border-t border-black bg-black px-3 py-2 text-center text-[0.6rem] font-bold uppercase tracking-[0.3em] text-white">Panel 02</figcaption>
+        </figure>
+      </aside>
+    </div>
+  </div>
 </body>
 </html>
